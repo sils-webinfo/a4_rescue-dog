@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Assignment 3: Search Results</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1><a href="dogs.html">Pet Rescue</a></h1>
+        <div id="searchbox"><!--should still show on results page so people can adjust based on preference of search.-->
+            <form>  
+                <input id="gender-search" name="gender"><!--I don't think this is proper formatting for a drop down selector, but I can't recall how to do that, and I think this works for what the assignemnt is--></input>
+                <input id="breed-search" name="breed"></input>
+                <input id="age-search" name="age"></input>
+                <input id="size-search" name="size"></input>
+                <button><a href="search.html">Search</button>
+            </form>
+                
+        </div>
+        <div id="results">
+            <h1>Search Results</h1>
+            <ul class="dog-list">
+                <li class="pet-listing">
+                        <a href="pet-id#500.html"><img class="pet-photo" src="example.jpg" /></a><!--photo for the dogs, good selling point, also linked to pet page-->
+                        <p class="name"><a href="pet-id#500.html" <!--each pet page has a unique id# attributed to it.-->>{name}</a></p>
+                        <p class="breed">{breed}</p>
+                        <p class="gender">{gender}</p>
+                        <p class="size">{size}</p>
+                </li>
+                <li class="pet-listing">
+                        <a href="pet-id#501.html"><img class="pet-photo" src="example.jpg" /></a>
+                        <p class="name"><a href="pet-id#501.html"{name}</a></p>
+                        <p class="breed">{breed}</p>
+                        <p class="gender">{gender}</p>
+                        <p class="size">{size}</p>
+                </li>
+                <li class="pet-listing">
+                        <a href="pet-id#502.html"><img class="pet-photo" src="example.jpg" /></a>
+                        <p class="name"><a href="pet-id#502.html">{name}</a></p>
+                        <p class="breed">{breed}</p>
+                        <p class="gender">{gender}</p>
+                        <p class="size">{size}</p>
+                </li>
+                <!--This will continue for as many results as there are-->
+            </ul>
+        </div>        
+    </div>
+</body>
+</html>
