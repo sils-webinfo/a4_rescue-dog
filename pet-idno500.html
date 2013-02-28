@@ -14,7 +14,8 @@
                 Breed <input id="breed-search" name="breed"></input>
                 Age <input id="age-search" name="age"></input>
                Size <input id="size-search" name="size"></input>
-                <button><a href="search.html">Search</a></button>
+                <input type="submit"></input>
+                <button><a href="search.html">See Search Page</a></button><!--i included this because the submit button can't go anywhere currently-->
             </form>
                 
         </div>
@@ -25,7 +26,11 @@
                 <p class="gender">{gender}</p>
                 <p class="size">{size}</p>
                 <p class="desc">{Description}</p>
-        </div>        
+        </div>
+        
+        <!-- The following would only be seen if an admin was logged in..-->
+        <button><link href="edit.html" rel="edit">Edit</link></button> <button><link href="edit.html" rel="edit">Delete</button> <!--//note: edit means delete here, I know we will learn that later).
+        -->
     </div>
 </body>
 </html>

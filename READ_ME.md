@@ -18,11 +18,11 @@ ID Attribute Values
 Class Attribute Values 
 ----------------------
 1. dog-list: applied to a UL element, may have one or more descendent li elements.
-2. name: p class attribute for the name of the pet listed. 
-3. breed: p class attribute for the breed name of the pet listed. 
-4. gender: p class attribute for the gender of the pet listed.
-5. size: p class attribute for the size of the pet listed. 
-6. desc: p class attribute describing the pet. 
+2. name: p class attribute/input class attribute for the name of the pet listed. 
+3. breed: p class attribute/input class attribute for the breed name of the pet listed. 
+4. gender: p class attribute/input class attribute for the gender of the pet listed.
+5. size: p class attribute/input class attribute for the size of the pet listed. 
+6. desc: p class attribute/input class attribute describing the pet. 
 
 	
 Name Attribute Values

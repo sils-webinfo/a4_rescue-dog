@@ -7,6 +7,11 @@
 
 <body>
     <div id="container">
+      
+      
+        <!--Important notes on search page. There are a variety of results that the search result page could result in. ex: http://www.rescuedogs.com/breeds/labrador; http://www.rescuedogs/com/gender/male; http://wwww.rescuedogs.com/search=young+male, etc. They would all look the same, so for this assignment I just created "search.html" as the main container/template for all of those potential search queries. -->
+      
+      
         <h1><a href="dogs.html">Pet Rescue</a></h1>
         <div id="searchbox"><!--should still show on results page so people can adjust based on preference of search.-->
             <form>  
@@ -14,7 +19,8 @@
                 Breed <input id="breed-search" name="breed"></input>
                 Age <input id="age-search" name="age"></input>
                Size <input id="size-search" name="size"></input>
-                <button><a href="search.html">Search</a></button>
+                <input type="submit"></input>
+                <button><a href="search.html">See Search Page</a></button><!--i included this because the submit button can't go anywhere currently-->
             </form>
                 
         </div>
@@ -23,14 +29,14 @@
             <ul class="dog-list">
                 <li class="pet-listing">
                         <a href="pet-idno500.html"><img class="pet-photo" src="example.jpg" /></a><!--photo for the dogs, good selling point, also linked to pet page-->
-                        <p class="name"><a href="pet-idno500.html" <!--each pet page has a unique id# attributed to it.-->>{name}</a></p>
+                        <p class="name"><a href="pet-idno500.html" <!--each pet page has a unique id# attributed to it.-->{name}</a></p>
                         <p class="breed">{breed}</p>
                         <p class="gender">{gender}</p>
                         <p class="size">{size}</p>
                 </li>
                 <li class="pet-listing">
                         <a href="pet-idno501.html"><img class="pet-photo" src="example.jpg" /></a>
-                        <p class="name"><a href="pet-id#501.html"{name}</a></p>
+                        <p class="name"><a href="pet-id#501.html">{name}</a></p>
                         <p class="breed">{breed}</p>
                         <p class="gender">{gender}</p>
                         <p class="size">{size}</p>
