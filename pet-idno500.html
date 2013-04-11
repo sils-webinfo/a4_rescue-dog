@@ -2,6 +2,7 @@
 
 <html>
 <head>
+    <meta charset="utf-8">
     <title>Assignment 3: Search Result (specific)</title>
 </head>
 
@@ -10,18 +11,18 @@
         <h1><a href="dogs.html">Pet Rescue</a></h1>
         <div id="searchbox"><!--Still at top for easy re-searchability-->
             <form>  
-                Gender <input id="gender-search" name="gender"></input>
-                Breed <input id="breed-search" name="breed"></input>
-                Age <input id="age-search" name="age"></input>
-               Size <input id="size-search" name="size"></input>
-                <input type="submit"></input>
-                <button><a href="search.html">See Search Page</a></button><!--i included this because the submit button can't go anywhere currently-->
+                Gender <input id="gender-search" name="gender">
+                Breed <input id="breed-search" name="breed">
+                Age <input id="age-search" name="age">
+               Size <input id="size-search" name="size">
+                <input type="submit">
+                <button>See Search Page</button><!--i included this because the submit button can't go anywhere currently-->
             </form>
                 
         </div>
         <div id="pet-id">
             <h2>Meet {name}!</h2>
-                <img class="pet-photo" src="example.jpg" />
+                <img class="pet-photo" src="example.jpg" alt="pet photo" />
                 <p class="breed">{breed}</p>
                 <p class="gender">{gender}</p>
                 <p class="size">{size}</p>
@@ -29,7 +30,7 @@
         </div>
         
         <!-- The following would only be seen if an admin was logged in..-->
-        <button><link href="edit.html" rel="edit">Edit</link></button> <button><link href="edit.html" rel="edit">Delete</button> <!--//note: edit means delete here, I know we will learn that later).
+        <button>Edit</button> <button>Delete</button> <!--//note: edit means delete here, I know we will learn that later).
         -->
     </div>
 </body>
