@@ -2,6 +2,7 @@
 
 <html>
 <head>
+    <meta charset="utf-8">
     <title>Assignment 3: Search Results</title>
 </head>
 
@@ -15,12 +16,12 @@
         <h1><a href="dogs.html">Pet Rescue</a></h1>
         <div id="searchbox"><!--should still show on results page so people can adjust based on preference of search.-->
             <form>  
-                Gender <input id="gender-search" name="gender"></input>
-                Breed <input id="breed-search" name="breed"></input>
-                Age <input id="age-search" name="age"></input>
-               Size <input id="size-search" name="size"></input>
-                <input type="submit"></input>
-                <button><a href="search.html">See Search Page</a></button><!--i included this because the submit button can't go anywhere currently-->
+                Gender <input id="gender-search" name="gender">
+                Breed <input id="breed-search" name="breed">
+                Age <input id="age-search" name="age">
+               Size <input id="size-search" name="size">
+                <input type="submit">
+                <button>See Search Page</button><!--i included this because the submit button can't go anywhere currently-->
             </form>
                 
         </div>
@@ -28,21 +29,21 @@
             <h1>Search Results</h1>
             <ul class="dog-list">
                 <li class="pet-listing">
-                        <a href="pet-idno500.html"><img class="pet-photo" src="example.jpg" /></a><!--photo for the dogs, good selling point, also linked to pet page-->
-                        <p class="name"><a href="pet-idno500.html" <!--each pet page has a unique id# attributed to it.-->{name}</a></p>
+                        <a href="pet-idno500.html"><img class="pet-photo" src="example.jpg" alt="pet photo" /></a><!--photo for the dogs, good selling point, also linked to pet page-->
+                        <p class="name"><a href="pet-idno500.html"> <!--each pet page has a unique id# attributed to it.-->{name}</a></p>
                         <p class="breed">{breed}</p>
                         <p class="gender">{gender}</p>
                         <p class="size">{size}</p>
                 </li>
                 <li class="pet-listing">
-                        <a href="pet-idno501.html"><img class="pet-photo" src="example.jpg" /></a>
+                        <a href="pet-idno501.html"><img class="pet-photo" src="example.jpg" alt="pet photo" /></a>
                         <p class="name"><a href="pet-id#501.html">{name}</a></p>
                         <p class="breed">{breed}</p>
                         <p class="gender">{gender}</p>
                         <p class="size">{size}</p>
                 </li>
                 <li class="pet-listing">
-                        <a href="pet-idno502.html"><img class="pet-photo" src="example.jpg" /></a>
+                        <a href="pet-idno502.html"><img class="pet-photo" src="example.jpg" alt="pet photo" /></a>
                         <p class="name"><a href="pet-idno502.html">{name}</a></p>
                         <p class="breed">{breed}</p>
                         <p class="gender">{gender}</p>
